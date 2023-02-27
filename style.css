@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0;
+ }
+ body{
+    background-color: rgb(12, 2, 50);
+ }
+ h1{
+    color: rgb(255, 238, 0);
+    font-size: 64px;
+ }
+ p{
+    color: chartreuse;
+    margin: 1%;
+ }
+ nav{
+    background-color: rgb(85, 218, 183);
+    height: 300%;
+    font-size: 170%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ nav ul{
+    list-style-type: square;
+}
+ .gamecontainer{
+  display: flex;
+  color: chartreuse;
+  justify-content: center;
+  margin-top: 2%;
+ }
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    position: relative;
+}
+.box{
+    border: 1px solid chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgb(122, 173, 186);
+}
+.gameInfo{
+    padding: 0 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;
+}
+.playerTurn{
+    font-size: 5vw;
+}
+.imgWin img{
+    width: 0;
+    transition: width 1s ease-in-out;
+    position: absolute;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+#reset{
+    margin: 2px;
+    padding: 3px;
+    width: 55px;
+    height: 23px;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+    background-color: chartreuse;
+    border-radius: 46px;
+}
+    

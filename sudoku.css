@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(12, 2, 50);
+}
+h1{
+    color: rgb(255, 238, 0);
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+ }
+.title {
+    color: chartreuse;
+
+}
+nav{
+    background-color: rgb(85, 218, 183);
+    height: 40px;
+    font-size: 170%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+hr {
+    width: 500px;
+}
+
+#errors {
+    color: coral;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color:#ADEFD1FF;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 48px; 
+    height: 48px;
+    border: 1px solid black;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    width: 450px;
+    height: 50px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 44px; 
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+    background-color: #ADEFD1FF;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: white;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
