@@ -89,8 +89,8 @@ function selectTile() {
             this.innerText = numSelected.id;
         }
         else {
-            errors += 1;
-            document.getElementById("errors").innerText = errors;
+            errors +=1;
+            document.getElementById("errors").innerText = `Error: ${errors}`;
         }
     }
 }
